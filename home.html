@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/homeStyle.css">
+</head>
+<body>
+
+ 
+  <div class="night">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+
+    <div class="navbar" id="myNavbar" >
+      <!--code for the big screens navbar-->
+        <ul id="listAdd">
+          <li class="left"><a href="#about">About</a></li>
+         <li class="left"><a href="#project">Projects</a></li>
+           <li class="left"><a href="#contact">Contact</a></li>
+         </ul>
+         <div class="center">Banele Nhlapo</div>
+         <div >
+          <a href="BaneleCV.pdf" download="Banele Ndivhuwo Nhlapo CV" class="right">My resume <i class="fa-solid fa-download" style="color:black;"></i></a>
+        </div>
+        
+<!--code for the mobile navbar-->
+         <div class="mobile" >
+
+         <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+         </div>
+
+         <div class="name">
+          <li class=""> Banele</li>
+         </div>
+        </div>
+
+        <!--dropDown menu for mobile navbar-->
+         <div class="dropdown_menu ">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+           <li><a href="BaneleCV.pdf" download="Banele Ndivhuwo Nhlapo CV" class="resume">My resume<i class="fa-solid fa-download" ></i></a></li>
+         </div>
+         </div>
+
+         
+
+         <!--Welcome to my portfolio intro-->
+    <div class="intro">
+        <h1>
+            Hello, I'm <span class="myName">Banele Nhlapo</span>.<br> I'm a full stack web developer. 
+        </h1>
+        <a href="#about" class="knowMe">get to know me</a>
+    </div>
+
+    <!--About section-->
+    <div class="about" id="about">
+        <img src="img/banele.jpg">
+        <button class="hd">About</button>
+        <div class="para">
+        <p>I recently graduated from Richfield Institute with a diploma in Information Technology.
+           I am a dedicated individual actively seeking opportunities in software development.
+            Whether it's a freelance job or a permanent role in a company,
+             I am ready to contribute my skills and enthusiasm to meaningful projects. </p>
+            </div>
+    </div>
+
+    <div class="projects" id="project">
+      <div class="hd1">
+        <button class="hd" id="projectBtn">Projects</button>
+      </div>
+      
+
+  
+  <div class="gallery-wrap">
+    <a class="prev" id="backBtn" >&#10094;</a>
+    <div class="gallery">
+     
+      <div class="container">
+        <div class="image">
+          <p class="bottom-left">I recently graduated from Richfield Institute with a diploma in Information Technology.
+            I am a dedicated individual actively seeking opportunities in software development.
+             Whether it's a freelance job or a permanent role in a company,
+              I am ready to contribute my skills and enthusiasm to meaningful projects.</p>
+        </div>
+        <div class="image">
+          <img src="images/image-1.png">
+          <p class="bottom-left">I recently graduated from Richfield Institute with a diploma in Information Technology.
+            I am a dedicated individual actively seeking opportunities in software development.
+             Whether it's a freelance job or a permanent role in a company,
+              I am ready to contribute my skills and enthusiasm to meaningful projects.</p>
+        </div>
+        <div class="image">
+          <img src="images/image-3.png">
+          <p class="bottom-left">hello world</p>
+        </div>
+        </div>
+    
+        <div class="container">
+          <div class="image">
+            <p class="bottom-left">hello world</p>
+          </div>
+          <div class="image">
+            <p class="bottom-left">hello world</p>
+          </div>
+          <div class="image">
+            
+            <p class="bottom-left">hello world</p>
+          </div>
+          </div>
+    
+    </div>
+  
+      
+ 
+    <a class="next" id="nextBtn">&#10095;</a>
+
+    </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="hd2">
+      <button class="hd" >Contact</button>
+      </div>
+
+      <div class="form">
+       <div class="send">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:nhlapob78@gmail.com">nhlapob78@gmail.com</a><br><br>
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:0659803536">0659803536</a>
+       
+       </div> 
+
+      <hr>
+      
+      <form>
+        <p>Leave a message</p>
+        <div class="formFields">
+          <label for="name">Name</label><br>
+          <input type="text" name="name" placeholder="enter name">
+        </div>
+<br>
+        <div class="formFields">
+          <label for="email">Email</label><br>
+          <input type="email" name="email" placeholder="enter email">
+        </div>
+<br>
+        <div class="formFields">
+          <label for="phoneNo">PhoneNo</label><br>
+          <input type="number" name="phoneNo" placeholder="enter phone number">
+        </div>
+<br>
+        <div class="formFields">
+          <label for="enquary">Decription</label><br>
+          <textarea id="enquary" name="enquary" rows="10" cols="50"></textarea>
+        </div>
+<br>
+        <div class="formFields">
+         
+          <button name="submit" value="submit">submit</button>
+        </div>
+      </form>
+      
+    </div>
+
+    </div>
+   
+
+</body>
+
+<script>
+   
+    
+   var navbar = document.getElementById("myNavbar");
+var ul = document.getElementById("listAdd");
+
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+document.addEventListener('DOMContentLoaded', function() {
+function myFunction() {
+  console.log('Scroll position:', window.pageYOffset);
+  console.log('Sticky offset:', sticky);
+  if (window.pageYOffset > sticky) {
+    console.log('Adding classes');
+    navbar.classList.add("sticky");
+    navbar.classList.add("ulAdd");
+
+  } else {
+    console.log('Removing classes');
+    navbar.classList.remove("ulAdd");
+    
+  }
+}
+
+// Trigger myFunction on scroll
+window.onscroll = function() {
+  myFunction();
+};
+
+var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+// Log the width to the console or use it as needed
+console.log("Screen Width: " + screenWidth + " pixels");
+
+
+
+});
+
+let scrollContainer=document.querySelector(".gallery");
+let backBtn = document.getElementById("backBtn");
+let nextBtn = document.getElementById("nextBtn");
+
+scrollContainer.addEventListener("wheel", (evt)=>{
+  evt.preventDefault();
+  scrollContainer.scrollLeft += evt.deltaY;
+  scrollContainer.style.scrollBehavior = "auto";
+});
+
+nextBtn.addEventListener("click", ()=>{
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollLeft += 900;
+
+});
+
+backBtn.addEventListener("click", ()=>{
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollLeft -= 900;
+  
+});
+
+
+//code to open and close the dropDown menu
+const toggleBtn=document.querySelector('.toggle_btn');
+const toggleBtnIcon=document.querySelector('.toggle_btn i');
+const dropDownMenu=document.querySelector('.dropdown_menu');
+
+toggleBtn.onclick=function(){
+  dropDownMenu.classList.toggle('open');
+  const isOpen=dropDownMenu.classList.contains('open');
+
+  //switch icons
+  toggleBtnIcon.classList=isOpen
+  ? 'fa-solid fa-xmark'
+  : 'fa-solid fa-bars'
+}
+  
+      </script>
+</html>

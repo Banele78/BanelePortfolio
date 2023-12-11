@@ -1,0 +1,8 @@
+$ git init
+$ ls -al
+$ git status
+$ git add Sjambok.html
+$ git commit -m "first commit" Sjambok.html
+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
+
+git remote add origin https://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@github.com/Banele78/Sjam
